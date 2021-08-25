@@ -11,12 +11,12 @@
               <Intro />
               <div class="mt-5 ">
                 <p class="text-h5 font-weight-bold">Courses</p>
-                <v-tabs   hide-slider  v-model="tab" color="black" background-color="transparent" >
+                <v-tabs class="mt-n4"  hide-slider  v-model="tab" color="black" background-color="transparent" >
                   <v-tab style="text-transform:none" v-for="item in item" :key="item.tab">
                     {{ item.tab }}
                   </v-tab>
                 </v-tabs>
-                <v-tabs-items v-model="tab">
+                <v-tabs-items class="mt-n4" v-model="tab">
                   <v-tab-item v-for="item in item" :key="item.tab">
                     <v-card flat>
                       <v-card-text>
@@ -26,7 +26,7 @@
                   </v-tab-item>
                 </v-tabs-items>
               </div>
-            <div style="height:30vh">
+            <div style="">
               <v-row>
 
               </v-row>
