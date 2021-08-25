@@ -2,14 +2,14 @@
   <div>
       <div style="position:relative">
          
-      <div style="min-height:10vh;height:25vh;border-radius:15px;" class="grey lighten-4 ">
+      <div style="min-height:10vh;height:20vh;border-radius:15px;" class="grey lighten-4 ">
          <v-row no-gutters align="center" justify="center" style="z-index:0;height:100%">
              <div class="pa-5">
                  <p class="font-weight-bold text-h4">Hello Josh!</p>
                 <p class="font-weight-bold mt-n4">It's good to see you again.</p>
              </div>
              <v-spacer></v-spacer>
-              <v-img style="position:absolute;bottom:0;right:0;z-index:2;margin-right:6rem" class="" max-width="180" max-height="220" src="../../assets/2.png"></v-img>
+              <v-img style="position:absolute;bottom:0;right:0;z-index:2;margin-right:6rem" class="" max-width="135" max-height="220" src="../../assets/2.png"></v-img>
          </v-row>
         
       </div>

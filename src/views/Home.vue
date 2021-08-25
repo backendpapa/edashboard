@@ -9,8 +9,27 @@
           <v-row align="start" justify="start" style="height:100%">
             <v-col cols="12" xs="12" sm="12" md="12" xl="7" lg="7">
               <Intro />
-            <div style="height:40vh">
+              <div class="mt-5 ">
+                <p class="text-h5 font-weight-bold">Courses</p>
+                <v-tabs   hide-slider  v-model="tab" color="black" background-color="transparent" >
+                  <v-tab style="text-transform:none" v-for="item in item" :key="item.tab">
+                    {{ item.tab }}
+                  </v-tab>
+                </v-tabs>
+                <v-tabs-items v-model="tab">
+                  <v-tab-item v-for="item in item" :key="item.tab">
+                    <v-card flat>
+                      <v-card-text>
+                        <component v-bind:is="item.content"></component>
+                      </v-card-text>
+                    </v-card>
+                  </v-tab-item>
+                </v-tabs-items>
+              </div>
+            <div style="height:30vh">
+              <v-row>
 
+              </v-row>
             </div>
             </v-col>
             <v-col cols="12" xs="12" sm="12" md="12" xl="5" lg="5">
@@ -25,12 +44,14 @@
 <script>
 import Sidebar from '../components/SideBar.vue'
 import Intro from '../components/Home/Intro.vue'
+import AllCourses from '../components/Courses/AllCourses.vue'
   export default {
     name: 'Home',
 
     components: {
       Sidebar,
-      Intro
+      Intro,
+      AllCourses
     },
     data(){
       return {
@@ -39,6 +60,13 @@ import Intro from '../components/Home/Intro.vue'
           { title: 'Photos', icon: 'mdi-image' },
           { title: 'About', icon: 'mdi-help-box' },
         ],
+        tab: null,
+      item: [
+        { tab: 'All Courses', content: 'AllCourses' },
+        { tab: 'The Newest', content: 'ComponentB' },
+        { tab: 'Top Rated', content: 'ComponentB' },
+        { tab: 'Most Popular', content: 'ComponentB' }
+      ]
       }
     }
   }
