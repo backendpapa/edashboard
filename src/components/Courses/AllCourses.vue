@@ -1,6 +1,6 @@
 <template>
   <div>
-      <v-row no-gutters align="center" justify="center" class="grey lighten-4 pa-1" style="border-radius:15px">
+      <v-row no-gutters align="center" justify="center" class="grey lighten-4 pa-1 mb-2" v-for="i in  4" :key="i.i" style="border-radius:15px">
           <div class="white ml-2" style="width:40px;height:40px;border-radius:15px">
               <v-img class="ma-1" src="../../assets/figma.svg"></v-img>
           </div>
