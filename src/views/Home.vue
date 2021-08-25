@@ -9,6 +9,9 @@
           <v-row align="start" justify="start" style="height:100%">
             <v-col cols="12" xs="12" sm="12" md="12" xl="7" lg="7">
               <Intro />
+            <div style="height:40vh">
+
+            </div>
             </v-col>
             <v-col cols="12" xs="12" sm="12" md="12" xl="5" lg="5">
               
