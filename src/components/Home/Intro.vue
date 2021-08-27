@@ -49,7 +49,7 @@
                    </v-row>
                </div>
            </v-col>
-           <v-col cols="2">
+           <v-col cols="2" class="d-none d-sm-flex">
                <v-row style="height:100%" no-gutters>
                    <v-icon class="ml-2" color="black" size="40px">mdi-arrow-left-circle-outline</v-icon>
                    <v-icon class="ml-2" color="black" size="40px">mdi-arrow-right-circle-outline</v-icon>
