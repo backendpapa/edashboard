@@ -4,6 +4,7 @@
     v-model="value"
     :background-color="color"
     dark
+    app
     shift
   >
     <v-btn>
