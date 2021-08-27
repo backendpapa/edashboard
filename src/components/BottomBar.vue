@@ -8,7 +8,7 @@
     shift
   >
     <v-btn>
-      <span>Home</span>
+      <span>Courses</span>
 
       <v-icon>mdi-home</v-icon>
     </v-btn>
@@ -20,15 +20,20 @@
     </v-btn>
 
     <v-btn>
-      <span>Book</span>
+      <span>Messages</span>
 
-      <v-icon>mdi-book</v-icon>
+      <v-icon>mdi-tooltip-text-outline</v-icon>
     </v-btn>
 
     <v-btn>
       <span>Profile</span>
 
-      <v-icon>mdi-menu</v-icon>
+      <v-icon>mdi-account</v-icon>
+    </v-btn>
+    <v-btn plain>
+      <span>Home</span>
+
+      <v-icon >mdi-arrow-u-right-bottom</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </div>
