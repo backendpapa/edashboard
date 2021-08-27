@@ -44,7 +44,7 @@
               </v-col>
               <v-col cols="2" xl="6" lg="6" sm="2" md="2"  style="width:100%">
                     <p  class="text-center d-none d-sm-flex"><v-btn  class="  text-caption " color="black" dark style="text-transform:none;">Continue</v-btn></p>
-                           <v-btn icon  plain class="   d-flex d-sm-none" color="black"  rounded><v-icon size="40px">mdi-menu-right</v-icon></v-btn>  
+                           <v-btn icon  plain class="   d-flex d-sm-none" color="black"  rounded><v-icon size="40px">mdi-menu-right-outline</v-icon></v-btn>  
               </v-col>
           </v-row>
       </div>
