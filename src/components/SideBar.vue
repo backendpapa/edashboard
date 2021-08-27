@@ -1,5 +1,5 @@
 <template>
-  <div class=".d-none .d-sm-flex">
+  <div class="d-none d-sm-flex">
        <v-navigation-drawer style="height:90vh;border-radius:15px" class="ma-4 black shadow" width="100" permanent>
       <v-list-item>
         <v-list-item-content>
