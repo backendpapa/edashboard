@@ -9,9 +9,9 @@
           <v-row align="start" justify="start" style="height:100%">
             <v-col cols="12" xs="12" sm="12" md="12" xl="7" lg="7">
               <Intro />
-              <div class="mt-5 ">
+              <div class="mt-5 pa-2">
                 <p class="text-h5 font-weight-bold">Courses</p>
-                <v-tabs class="mt-n4"  hide-slider  v-model="tab" color="black" background-color="transparent" >
+                <v-tabs class="mt-n4" centered  hide-slider  v-model="tab" color="black" background-color="transparent" >
                   <v-tab style="text-transform:none" v-for="item in item" :key="item.tab">
                     {{ item.tab }}
                   </v-tab>
