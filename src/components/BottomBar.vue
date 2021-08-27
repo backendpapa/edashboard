@@ -2,21 +2,21 @@
 <div class="d-flex d-sm-none">
     <v-bottom-navigation
     v-model="value"
-    :background-color="color"
+    background-color="grey"
     dark
     app
     shift
   >
     <v-btn>
-      <span>Video</span>
+      <span>Home</span>
 
-      <v-icon>mdi-television-play</v-icon>
+      <v-icon>mdi-home</v-icon>
     </v-btn>
 
     <v-btn>
-      <span>Music</span>
+      <span>Certs</span>
 
-      <v-icon>mdi-music-note</v-icon>
+      <v-icon>mdi-school-outline</v-icon>
     </v-btn>
 
     <v-btn>
@@ -26,9 +26,9 @@
     </v-btn>
 
     <v-btn>
-      <span>Image</span>
+      <span>Profile</span>
 
-      <v-icon>mdi-image</v-icon>
+      <v-icon>mdi-menu</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </div>
@@ -36,7 +36,7 @@
 
 <script>
   export default {
-    data: () => ({ value: 1 }),
+    data: () => ({ value: 'black' }),
 
     computed: {
       color () {
