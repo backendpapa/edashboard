@@ -6,11 +6,12 @@
     dark
     app
     shift
+    class="pl-1 pr-1"
   >
     <v-btn>
       <span>Courses</span>
 
-      <v-icon>mdi-home</v-icon>
+      <v-icon>mdi-motion-play</v-icon>
     </v-btn>
 
     <v-btn>
@@ -33,7 +34,7 @@
     <v-btn plain>
       <span>Home</span>
 
-      <v-icon >mdi-arrow-u-right-bottom</v-icon>
+      <v-icon >mdi-arrow-right-bold-box-outline</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </div>
