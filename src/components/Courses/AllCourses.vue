@@ -1,35 +1,33 @@
 <template>
   <div>
       <v-row no-gutters align="center" justify="center" class="grey lighten-4 pa-1  mb-2" v-for="i in  courses" :key="i.i" style="border-radius:15px">
-          <v-col cols="1">
+          <v-col cols="2" xl="1" lg="1" sm="2" md="2" >
               <div class="white ml-2" style="width:40px;height:40px;border-radius:15px">
               <v-row no-gutters style="height:100%" align="center" justify="center">
                   <v-img class="ma-1" :src="i.img"></v-img>
               </v-row>
           </div>
           </v-col>
-          <v-col cols="4">
+          <v-col cols="5" xl="4" md="5" sm="5" lg="4">
               <div class=" mt-3">
               <p class="font-weight-bold text-caption">{{i.title}}</p>
               <p class="mt-n5 text-caption">By Backendpapa</p>
           </div>
           </v-col>
          
-         <v-col cols="3">
+         <v-col cols="4" xl="4" lg="4" md="4" sm="4">
               <div class="mt-3">
             <p><v-icon size="17px">mdi-clock</v-icon><span class="text-caption font-weight-bold ml-1">{{i.time}}</span></p>
           </div>
          </v-col>
          
-         <v-col cols="2">
-              <div class="mt-3">
-              <p class="mt-2"><v-icon class="mt-n2 mr-2">mdi-fire</v-icon> <span class="font-weight-bold ">{{i.rating}}</span></p>
-          </div>
+         <v-col cols="1" xl="3" md="1" sm="1" lg="3">
+              
+               <p class="text-right mt-4"><v-btn icon right  plain color="black"  rounded><v-icon size="40px">mdi-menu-right-outline</v-icon></v-btn></p>
+          
          </v-col>
       
-         <v-col cols="2" >
-              <v-btn  color="black" dark style="text-transform:none" class="text-caption pr-2">View Course</v-btn>
-         </v-col>
+        
       </v-row>
   </div>
 </template>
