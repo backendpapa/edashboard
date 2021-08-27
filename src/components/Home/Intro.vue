@@ -24,9 +24,9 @@
                      </v-img>
                      </div>
                    
-                           <div class="">
-                           <p class="font-weight-bold">Spanish B2</p>
-                           <p class="text-caption  mt-n4">By Backend Papa</p>
+                           <div class=" ml-1" style="height:8vh">
+                           <p style="margin:auto" class="font-weight-bold">Spanish B2</p>
+                           <p class="text-caption  ">By Backend Papa</p>
                        </div>
                       <v-spacer></v-spacer>
                    
@@ -42,11 +42,11 @@
                         >
                     <span style="font-size:12px" class="font-weight-bold">85%</span>
                         </v-progress-circular>
-                        
+                        <v-spacer></v-spacer>
                         
                        
                             <v-btn class="  text-caption d-none d-sm-flex" color="black" dark style="text-transform:none;">Continue</v-btn>
-                             <p class="text-right"><v-btn icon class="   d-flex d-sm-none" color="black"  rounded><v-icon>mdi-monitor-dashboard</v-icon></v-btn></p>
+                           <v-btn icon  plain class="   d-flex d-sm-none" color="black"  rounded><v-icon size="40px">mdi-menu-right</v-icon></v-btn>   
                        
                    </v-row>
               
