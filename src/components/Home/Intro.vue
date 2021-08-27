@@ -18,7 +18,7 @@
       <!-- Info 2 -->
       <div class="mt-4">
            <v-row no-gutters>
-           <v-col cols="10">
+           <v-col cols="10" xs="12" sm="12" md="12" xl="10" lg="10">
                <div class="pat-2 grey lighten-4" style="border-radius:15px;height:10vh">
                    <v-row no-gutters style="height:100%" align="center" justify="center">
                      
