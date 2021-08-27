@@ -50,43 +50,7 @@
       </div>
 
 
-      <div class="mt-4 pa-2">
-           <v-row align="center" no-gutters justify="center" class="grey lighten-4 pa-1" style="border-radius:15px;height:10vh" >
-                    <div class="white" style="border-radius:15px;height:8vh;">
-                     <v-img src="../../assets/spain.png">
-                     </v-img>
-                     </div>
-                   
-                           <div class=" ml-1" style="height:8vh">
-                           <p style="margin:auto" class="font-weight-bold">Spanish B2</p>
-                           <p class="text-caption  ">By Backend Papa</p>
-                       </div>
-                      <v-spacer></v-spacer>
-                   
-                       
-                            <v-progress-circular
-                        :rotate="360"
-                        :size="35"
-                        :width="3"
-                        :value="85"
-                        color="black"
-                        
-                        
-                        >
-                    <span style="font-size:12px" class="font-weight-bold">85%</span>
-                        </v-progress-circular>
-                        <v-spacer></v-spacer>
-                        
-                       
-                            <v-btn class="  text-caption d-none d-sm-flex" color="black" dark style="text-transform:none;">Continue</v-btn>
-                           <v-btn icon  plain class="   d-flex d-sm-none" color="black"  rounded><v-icon size="40px">mdi-menu-right</v-icon></v-btn>   
-                       
-                   </v-row>
-              
      
-           
-      
-      </div>
       </v-container>
   </div>
 </template>
