@@ -16,7 +16,7 @@
       
       </div>
       <!-- Info 2 -->
-      <div class="mt-4">
+      <div class="mt-4 ma-2">
            <v-row no-gutters>
            <v-col cols="10" xs="12" sm="12" md="12" xl="10" lg="10">
                <div class="pat-2 grey lighten-4" style="border-radius:15px;height:10vh">
