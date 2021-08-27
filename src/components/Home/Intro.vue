@@ -3,20 +3,22 @@
       <v-container>
       <div style="position:relative" class="">
          
-      <div style="min-height:10vh;height:20vh;border-radius:15px;" class="grey lighten-4 ">
+      <div style="min-height:10vh;height:20vh;border-radius:15px;" class="grey lighten-4 pa-2">
          <v-row no-gutters align="center" justify="center" style="z-index:0;height:100%">
-             <div class="pa-5">
-                 <p class="font-weight-bold text-h4">Hello Josh!</p>
+             <v-col cols="8">
+                  <p class="font-weight-bold text-h4">Hello Josh!</p>
                 <p class="font-weight-bold mt-n4">It's good to see you again.</p>
-             </div>
+             </v-col>
              <v-spacer></v-spacer>
-              <v-img style="position:absolute;bottom:0;right:0;z-index:2;margin-right:6rem" class="" max-width="135" max-height="220" src="../../assets/2.png"></v-img>
+              <v-col cols="4">
+                  <v-img style="position:absolute;bottom:0;right:0;z-index:2;margin-right:1rem" class="" max-width="135" max-height="220" src="../../assets/2.png"></v-img>
+              </v-col>
          </v-row>
         
       </div>
       
       </div>
-      <!-- Info 2 -->
+      <!-- This gives info about the last course you are watching and how many percentage covered -->
       <div class="mt-4 pa-2">
           <v-row align="center" style="border-radius:15px"  class="grey lighten-4 pa-1">
               <v-col cols="3" sm="3" md="3" xl="1" lg="1" >  
@@ -43,7 +45,11 @@
                         </v-progress-circular>
               </v-col>
               <v-col cols="2" xl="6" lg="6" sm="2" md="2"  style="width:100%">
-                    <p  class="text-center d-none d-sm-flex"><v-btn  class="  text-caption " color="black" dark style="text-transform:none;">Continue</v-btn></p>
+                  <v-row class="d-none d-sm-flex " no-gutters>
+                      <v-spacer></v-spacer>
+                       <v-btn  class="  text-caption " color="black" dark style="text-transform:none;">Continue</v-btn>
+                  </v-row>
+                   
                            <v-btn icon  plain class="   d-flex d-sm-none" color="black"  rounded><v-icon size="40px">mdi-menu-right-outline</v-icon></v-btn>  
               </v-col>
           </v-row>
