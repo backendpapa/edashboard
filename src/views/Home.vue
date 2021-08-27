@@ -66,7 +66,8 @@ import AllCourses from '../components/Courses/AllCourses.vue'
         { tab: 'The Newest', content: 'ComponentB' },
         { tab: 'Top Rated', content: 'ComponentB' },
         { tab: 'Most Popular', content: 'ComponentB' }
-      ]
+      ],
+      
       }
     }
   }
