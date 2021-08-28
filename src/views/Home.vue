@@ -71,7 +71,7 @@
                     </div>
                   </v-col>
                   <v-col cols="6" style="" class="" >
-                    <div class="grey lighten-4 ml-2" style="width:100%;border-radius:15px;height:10vh">
+                    <div class="black white--text ml-2" style="width:100%;border-radius:15px;height:10vh">
                       <v-row no-gutters align="center" justify="center">
                         <v-spacer></v-spacer>
                         <p class="text-h3 font-weight-bold"> 4</p>
