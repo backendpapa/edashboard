@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="grey lighten-5">
     <v-row no-gutters align="center" justify="center">
       <v-col cols="12" xs="12" md="12" sm="12" lg="2 " xl="2" >
         
