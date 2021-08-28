@@ -103,6 +103,17 @@
           height="140"
       ></v-sparkline>
     </v-sheet>
+        <div class="mt-5 ma-2 grey lighten-4" style="height:20vh;border-radius:15px" >
+          <v-row no-gutters class="ma-2" style="height:20vh" justify="center" align="center">
+            <div>
+              <p class="font-weight-bold text-h6">Learn even more!</p>
+              <p>Unlock Premium features<br> only for $9.99 per month</p>
+            </div>
+            <v-spacer></v-spacer>
+            <img src="https://img.icons8.com/ios/50/000000/brain--v2.png"/>
+            <v-spacer></v-spacer>
+          </v-row>
+        </div>
                 </div>
                 <br>
                 <br>
