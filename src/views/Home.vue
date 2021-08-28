@@ -33,10 +33,14 @@
             </div>
             </v-col>
             <v-col cols="12" xs="12" sm="12" md="12" xl="5" lg="5">
-              
+                <!--  -->
+                <v-row no-gutters>
+                    <!-- <v-text-field dense outlined prepend-inner-icon="search"></v-text-field> -->
+                </v-row>
             </v-col>
           </v-row>
       </v-col>
+
     </v-row>
     <BottomNav />
   </div>
