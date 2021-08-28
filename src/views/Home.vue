@@ -6,7 +6,7 @@
           <Sidebar />
       </v-col>
       <v-col cols="12" xs="12" md="12" sm="12" xl="10" lg="10">
-          <v-row align="start" justify="start" style="height:100%">
+          <v-row no-gutters align="center" justify="start" style="height:100%">
             <v-col cols="12" xs="12" sm="12" md="12" xl="7" lg="7">
               <Intro />
               <div class="mt-5 pa-2">
