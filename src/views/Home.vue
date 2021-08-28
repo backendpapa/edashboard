@@ -6,7 +6,7 @@
           <Sidebar />
       </v-col>
       <v-col cols="12" xs="12" md="12" sm="12" xl="10" lg="10">
-          <v-row no-gutters align="center" justify="start" style="height:100%">
+          <v-row no-gutters  justify="start" style="height:100%">
             <v-col cols="12" xs="12" sm="12" md="12" xl="7" lg="7">
               <Intro />
               <div class="mt-5 pa-2">
@@ -34,9 +34,61 @@
             </v-col>
             <v-col cols="12" xs="12" sm="12" md="12" xl="5" lg="5">
                 <!--  -->
-                <v-row no-gutters>
-                    <!-- <v-text-field dense outlined prepend-inner-icon="search"></v-text-field> -->
+                <div class="pa-3">
+                  <v-row class="d-none d-sm-flex" no-gutters >
+                    <v-col cols="12" sm="12" md="12" xl="8" lg="8">
+                        <v-text-field dense outlined prepend-inner-icon="mdi-magnify"></v-text-field>
+                    </v-col>
+                    <v-col cols="12" sm="12" md="12" xl="2" lg="2">
+                        <p class="text-center"><v-btn icon><Icon  width="30" icon="mdi:bell-badge-outline" /></v-btn></p>
+                    </v-col>
+                    <v-col cols="12" sm="12" md="12" xl="2" lg="2">
+                       <v-avatar
+                          tile
+                          size="40"
+                          
+                        >
+                          <v-img style="border-radius:10px" src="https://images.unsplash.com/photo-1599041125553-a3b967646ca5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dnVlanxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></v-img>
+                        </v-avatar>
+                    </v-col>
                 </v-row>
+                <!-- add a v-divider -->
+                <v-divider class=ma-4></v-divider>
+                <v-row no-gutters style=""  class=" pa-2">
+                  <v-col cols="6" style="" class="" >
+                    <div class="grey lighten-4 mr-2" style="width:100%;border-radius:15px;height:10vh">
+                      <v-row no-gutters align="center" justify="center">
+                        <v-spacer></v-spacer>
+                        <p class="text-h3 font-weight-bold"> 11</p>
+                         <v-spacer></v-spacer>
+                        <div>
+                          <p class="font-weight-bold text-caption">Courses</p>
+                          <p class="mt-n4 font-weight-bold text-caption">completed</p>
+                        </div>
+                        <v-spacer></v-spacer>
+                       
+                      </v-row>
+                    </div>
+                  </v-col>
+                  <v-col cols="6" style="" class="" >
+                    <div class="grey lighten-4 ml-2" style="width:100%;border-radius:15px;height:10vh">
+                      <v-row no-gutters align="center" justify="center">
+                        <v-spacer></v-spacer>
+                        <p class="text-h3 font-weight-bold"> 4</p>
+                         <v-spacer></v-spacer>
+                        <div>
+                          <p class="font-weight-bold text-caption">Courses</p>
+                          <p class="mt-n4 font-weight-bold text-caption">in progress</p>
+                        </div>
+                        <v-spacer></v-spacer>
+                       
+                      </v-row>
+                    </div>
+                  </v-col>
+                </v-row>
+                <br>
+                <br>
+                </div>
             </v-col>
           </v-row>
       </v-col>
@@ -47,6 +99,7 @@
 </template>
 
 <script>
+import { Icon } from '@iconify/vue2'
 import Sidebar from '../components/SideBar.vue'
 import BottomNav from '../components/BottomBar.vue'
 import Intro from '../components/Home/Intro.vue'
@@ -58,7 +111,8 @@ import AllCourses from '../components/Courses/AllCourses.vue'
       Sidebar,
       Intro,
       AllCourses,
-      BottomNav
+      BottomNav,
+      Icon
     },
     data(){
       return {
