@@ -54,10 +54,10 @@
                 </v-row>
                 <!-- add a v-divider -->
                 <v-divider class=ma-4></v-divider>
-                <v-row no-gutters style=""  class=" pa-2">
+                <v-row no-gutters   class=" pa-2">
                   <v-col cols="6" style="" class="" >
                     <div class="grey lighten-4 mr-2" style="width:100%;border-radius:15px;height:10vh">
-                      <v-row no-gutters align="center" justify="center">
+                      <v-row class="pa-2" no-gutters align="center" justify="center">
                         <v-spacer></v-spacer>
                         <p class="text-h3 font-weight-bold"> 11</p>
                          <v-spacer></v-spacer>
@@ -70,9 +70,9 @@
                       </v-row>
                     </div>
                   </v-col>
-                  <v-col cols="6" style="" class="" >
+                  <v-col cols="6" style="height:100%" class="" >
                     <div class="black white--text ml-2" style="width:100%;border-radius:15px;height:10vh">
-                      <v-row no-gutters align="center" justify="center">
+                      <v-row style="height:10vh" class="pa-2" no-gutters align="center" justify="center">
                         <v-spacer></v-spacer>
                         <p class="text-h3 font-weight-bold"> 4</p>
                          <v-spacer></v-spacer>
