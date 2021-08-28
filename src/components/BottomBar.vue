@@ -9,13 +9,13 @@
     class="pl-1 pr-1"
   >
     <v-btn>
-      <span>Courses</span>
+      <span>Overview</span>
 
       <v-icon>mdi-motion-play</v-icon>
     </v-btn>
 
     <v-btn>
-      <span>Certs</span>
+      <span>Courses</span>
 
       <v-icon>mdi-school-outline</v-icon>
     </v-btn>
