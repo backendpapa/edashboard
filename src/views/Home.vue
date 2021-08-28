@@ -104,6 +104,8 @@
       ></v-sparkline>
     </v-sheet>
                 </div>
+                <br>
+                <br>
                 </div>
             </v-col>
           </v-row>
