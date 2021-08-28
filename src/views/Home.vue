@@ -89,8 +89,8 @@
                 <!-- graph -->
                 <div>
                  <v-sheet
-      class="v-sheet--offset mx-auto"
-      color="cyan"
+      class=" mx-auto mt-2"
+      color="grey"
       elevation="12"
       max-width="calc(100% - 32px)"
     >
@@ -100,6 +100,7 @@
         color="white"
         line-width="2"
         padding="16"
+          height="140"
       ></v-sparkline>
     </v-sheet>
                 </div>
