@@ -16,7 +16,7 @@
                     {{ item.tab }}
                   </v-tab>
                 </v-tabs>
-                <v-tabs-items style="height:40vh;overflow-y:scroll" class="mt-n4 my-scroll" v-model="tab">
+                <v-tabs-items style="overflow-y:scroll" class="mt-n4 my-scroll mi-height" v-model="tab">
                   <v-tab-item v-for="item in item" :key="item.tab">
                     <v-card flat>
                       <v-card-text>
@@ -83,6 +83,14 @@ import AllCourses from '../components/Courses/AllCourses.vue'
   .my-scroll::-webkit-scrollbar {
     width: 3px;
     }
+  .mi-height{
+    height: 40vh;
+  }
+  @media only screen and (max-width: 600px) {
+    .mi-height{
+    height: 50vh;
+  }
+  }
 
 
 </style>
