@@ -1,7 +1,7 @@
 <template>
   <div class="">
      <v-row no-gutters align="center" justify="center" style="height:100vh">
-       <v-col cols="8" sm="10" md="10" xl="4" lg="4">
+       <v-col cols="8" sm="10" md="10" xl="3" lg="3">
          <p class="text-h6">Welcome to E-Dashboard</p>
          <v-card  >
            <v-subheader class="grey lighten-2">
