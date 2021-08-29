@@ -21,18 +21,18 @@
       <v-icon>mdi-school-outline</v-icon>
     </v-btn>
 
-    <v-btn>
+    <v-btn to="/ti">
       <span>Messages</span>
 
       <v-icon>mdi-tooltip-text-outline</v-icon>
     </v-btn>
 
-    <v-btn>
+    <v-btn to="/na">
       <span>Profile</span>
 
       <v-icon>mdi-account</v-icon>
     </v-btn>
-    <v-btn plain>
+    <v-btn to="tooo" plain>
       <span>Home</span>
 
       <v-icon >mdi-arrow-right-bold-box-outline</v-icon>
