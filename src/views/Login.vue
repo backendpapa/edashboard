@@ -2,7 +2,7 @@
   <div class="">
      <v-row no-gutters align="center" justify="center" style="height:100vh">
        <v-col cols="8" sm="10" md="10" xl="4" lg="4">
-         <p>Welcome to E-Dashboard</p>
+         <p class="text-h6">Welcome to E-Dashboard</p>
          <v-card style="height:50vh" >
            <v-subheader class="grey lighten-2">
              Login
