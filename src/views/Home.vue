@@ -123,14 +123,14 @@
       </v-col>
 
     </v-row>
-    <BottomNav />
+    
   </div>
 </template>
 
 <script>
 import { Icon } from '@iconify/vue2'
 import Sidebar from '../components/SideBar.vue'
-import BottomNav from '../components/BottomBar.vue'
+
 import Intro from '../components/Home/Intro.vue'
 import AllCourses from '../components/Courses/AllCourses.vue'
   export default {
@@ -140,7 +140,7 @@ import AllCourses from '../components/Courses/AllCourses.vue'
       Sidebar,
       Intro,
       AllCourses,
-      BottomNav,
+      
       Icon
     },
     data(){

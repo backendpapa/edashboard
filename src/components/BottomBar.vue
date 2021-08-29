@@ -5,34 +5,36 @@
     background-color="grey"
     dark
     app
+    
+    
     shift
-    class="pl-1 pr-1"
+    
   >
 
-    <v-btn to="/overview">
+    <v-btn style="height:100%" plain to="/overview">
       <span>Overview</span>
 
       <v-icon>mdi-motion-play</v-icon>
     </v-btn>
 
-    <v-btn to="/courses">
+    <v-btn plain style="height:100%" to="/courses">
       <span>Courses</span>
 
       <v-icon>mdi-school-outline</v-icon>
     </v-btn>
 
-    <v-btn to="/ti">
+    <v-btn plain style="height:100%" to="/ti">
       <span>Messages</span>
 
       <v-icon>mdi-tooltip-text-outline</v-icon>
     </v-btn>
 
-    <v-btn to="/na">
+    <v-btn plain style="height:100%" to="/na">
       <span>Profile</span>
 
       <v-icon>mdi-account</v-icon>
     </v-btn>
-    <v-btn to="tooo" plain>
+    <v-btn style="height:100%"  to="tooo" plain>
       <span>Home</span>
 
       <v-icon >mdi-arrow-right-bold-box-outline</v-icon>
