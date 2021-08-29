@@ -5,7 +5,7 @@
    <v-content>
 
       <router-view/>
-    <BottomBar />
+    <BottomBar v-if="$route.path!='/'" />
    </v-content>
   </v-app>
 </template>
