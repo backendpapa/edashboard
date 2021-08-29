@@ -9,10 +9,10 @@
            </v-subheader>
            <div class="pa-3">
              <p class="text-caption ">Username</p>
-             <v-text-field outlined dense prepend-inner-icon="mdi-account" class="text-caption mt-n3" placeholder="Enter in your username"></v-text-field>
+             <v-text-field outlined dense prepend-inner-icon="mdi-account" v-model="username" class="text-caption mt-n3" placeholder="Enter in your username"></v-text-field>
 
               <p class="text-caption ">Password</p>
-             <v-text-field outlined dense prepend-inner-icon="mdi-lock" class="text-caption mt-n3" placeholder="Enter in your Password"></v-text-field>
+             <v-text-field type="password" outlined dense v-model="password" prepend-inner-icon="mdi-lock" class="text-caption mt-n3" placeholder="Enter in your Password"></v-text-field>
              <v-btn block @click="login" style="text-transform:none" class="orange" dark> Login</v-btn>
            </div>
          </v-card>
@@ -25,7 +25,8 @@
 export default {
   data(){
     return {
-
+      username:"johndoe",
+      password:"12345678"
     }
   },
   methods:{
