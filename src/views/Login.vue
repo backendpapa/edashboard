@@ -3,11 +3,11 @@
      <v-row no-gutters align="center" justify="center" style="height:100vh">
        <v-col cols="8" sm="10" md="10" xl="4" lg="4">
          <p class="text-h6">Welcome to E-Dashboard</p>
-         <v-card style="height:50vh" >
+         <v-card  >
            <v-subheader class="grey lighten-2">
              Login
            </v-subheader>
-           <div class="ma-2">
+           <div class="pa-3">
              <p class="text-caption ">Username</p>
              <v-text-field outlined dense prepend-inner-icon="mdi-account" class="text-caption mt-n3" placeholder="Enter in your username"></v-text-field>
 
