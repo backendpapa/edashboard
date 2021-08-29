@@ -8,7 +8,8 @@
     shift
     class="pl-1 pr-1"
   >
-    <v-btn to="overview" exact>
+  
+    <v-btn to="overview">
       <span>Overview</span>
 
       <v-icon>mdi-motion-play</v-icon>
