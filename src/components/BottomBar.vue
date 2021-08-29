@@ -8,13 +8,13 @@
     shift
     class="pl-1 pr-1"
   >
-    <v-btn to="/course/overview">
+    <v-btn to="overview" exact>
       <span>Overview</span>
 
       <v-icon>mdi-motion-play</v-icon>
     </v-btn>
 
-    <v-btn to="/course/courses">
+    <v-btn to="/courses">
       <span>Courses</span>
 
       <v-icon>mdi-school-outline</v-icon>
