@@ -31,7 +31,8 @@ export default {
   },
   methods:{
     login(){
-      this.$router.push('/course/overview')
+      
+      this.$router.push('/overview')
     }
   }
 }
